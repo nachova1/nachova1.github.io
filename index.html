@@ -35,7 +35,7 @@
         <a href="https://www.linkedin.com/in/ignaciovarela98/"><i class='bx bxl-linkedin'></i></a>
         <a href="https://github.com/nachova1"><i class='bx bxl-github'></i></a>
       </div>
-      <a href="#" class="btn">Descargar CV</a>
+      <a href="CV(ES) - Ignacio Varela - BackEnd Developer.pdf" class="btn" download="">Descargar CV</a>
     </div>
     <div class="home-img">
       <img src="images/Image.jpeg.jpeg" alt="">
@@ -83,18 +83,22 @@
     <!-- #Contacto Section design -->
     <section class="contacto" id="contacto">
       <h2 class="heading">Contacta<span>me!</span></h2>
-      <form action="#">
+      <form action="https://formsubmit.co/varela.ig98@gmail.com" method="POST">
         <div class="input-box">
-          <input type="text" placeholder="Nombre Completo">
-          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Nombre Completo" name="nombre">
+          <input type="email" placeholder="Email" name="email">
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Numero telefonico">
-          <input type="text" placeholder="Asunto">
+          <input type="number" placeholder="Numero telefonico" name="numero">
+          <input type="text" placeholder="Asunto" name="asunto">
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
         <input type="submit" value="Enviar mensaje" class="btn">
         
+        <!-- estos ultimos dos input de tipo hidden son para redirigir la pagina en el momento que se envia el correo -->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+        <input type="hidden" name="_captcha" value="false">
+
       </form>
     </section>
 

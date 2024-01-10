@@ -177,6 +177,46 @@ span{
     margin: 2rem 0 3rem;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.certificados {
+    margin-top: 10px;
+    padding: 50px 0 150px 0;
+}
+
+.certificados h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.mySwiper {
+    width: 80%;
+    padding: 20px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.swiper {
+    width: 100%;
+}
+
+
 .proyectos h2{
     margin-bottom: 5rem;
 
@@ -309,6 +349,10 @@ span{
 
     section {
         padding: 10rem 3% 2rem;
+    }
+
+    .certificados{
+        padding: 30px;
     }
 
     .proyectos {

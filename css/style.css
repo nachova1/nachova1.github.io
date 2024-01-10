@@ -190,7 +190,7 @@ span{
 
 .certificados h2 {
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 800;
     margin-bottom: 20px;
 }
 
@@ -351,9 +351,18 @@ span{
         padding: 10rem 3% 2rem;
     }
 
-    .certificados{
-        padding: 30px;
+    .sobre-mi-content {
+        width: 90%;
     }
+    
+    .certificados {
+        margin-top: 20px;
+    }
+    
+    .mySwiper {
+        width: 100%;
+    }
+      
 
     .proyectos {
         padding-bottom: 7rem;

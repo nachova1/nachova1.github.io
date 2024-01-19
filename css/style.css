@@ -345,6 +345,28 @@ span{
         font-size: 55%;
     }
 
+    .sobre-mi {
+        flex-direction: column-reverse;
+        padding: 60px 0px 50px 90px;
+        
+    }
+
+    .sobre-mi-content {
+        width: 90%;
+        
+    }
+    
+    .swiper-slide {
+        margin-top: 50px;
+    }
+
+    .mySwiper {
+        /*width: 100%;*/
+        width: 140vh;
+        margin: 0 auto; 
+        display: block;
+        padding: 0px 55px 0px 55px;
+    }
 
 }
 
@@ -357,8 +379,15 @@ span{
         padding: 10rem 3% 2rem;
     }
 
+
+    .sobre-mi {
+        flex-direction: column-reverse;
+        padding: 30px 0 50px 20px;
+    }
+
     .sobre-mi-content {
         width: 90%;
+        
     }
     
     .certificados {
@@ -366,7 +395,11 @@ span{
     }
     
     .mySwiper {
-        width: 100%;
+        /*width: 100%;*/
+        width: 145vh;
+        margin: 0 auto; 
+        display: block;
+        padding: 0px 55px 0px 55px;
     }
       
 
@@ -429,7 +462,26 @@ span{
     }
 
     .sobre-mi {
-        flex-direction: column-reverse;
+        padding: 30px 0 50px 20px;
+    }
+
+    .certificados {
+        padding: 30px 0 50px 0;
+    }
+
+    /*.certificados img {
+        width: 90vh;
+        margin: 0 auto; 
+        display: block;
+        padding: 0px 55px 0px 95px;
+    }*/
+
+    .mySwiper {
+        /*width: 100%;*/
+        width: 90vh;
+        margin: 0 auto; 
+        display: block;
+        padding: 0px 55px 0px 55px;
     }
 
     .proyectos h2 {
@@ -456,16 +508,26 @@ span{
         padding: 30px 0 50px 0;
     }
 
-    .certificados img {
+    .mySwiper {
         width: 100%;
-        max-width: none;
-        border-radius: 0;
+        padding: 0px 55px 0px 55px;
+    }
+
+    .sobre-mi {
+        flex-direction: column-reverse;
+        padding: 30px 0 50px 10px;
+        
     }
 }
 
 @media (max-width: 365px) {
     .home-img img {
         width: 90vw;
+    }
+
+    .certificados img {
+        width: 100%;
+        padding: 0px 65px 0px 85px;
     }
 
     .footer {

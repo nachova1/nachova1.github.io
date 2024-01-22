@@ -187,10 +187,10 @@ span{
 }
 
 
-.certificados {
+/*.certificados {
     margin-top: 10px;
     padding: 50px 0 150px 0;
-}
+}*/
 
 .certificados h2 {
     font-size: 25px;
@@ -536,7 +536,7 @@ span{
 
      .mySwiper {
        width: 95vh;
-       
+       background-position: center;
        
     }
 

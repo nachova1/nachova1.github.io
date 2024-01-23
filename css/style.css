@@ -146,33 +146,38 @@ span{
 
 .btn:hover {
     box-shadow: none;
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 .sobre-mi{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1rem;
     background: var(--second-bg-color);
     position: relative;
-    
 }
+
+
 
 .heading{
     text-align: center;
     font-size: 4.5rem;
 }
 
-
+.sobre-mi-content {
+    padding: 0px 0px 0px 0px;
+}
 
 .sobre-mi-content h2{
     text-align: left;
     line-height: 1.2;
+    font-weight: 700;
 }
 
 .sobre-mi-content h3{
     font-size: 2.6rem;
-
+    font-weight: 700;
 }
 
 .sobre-mi-content p{
@@ -186,12 +191,24 @@ span{
     margin: 0 auto;
 }
 
+.carousel-inner img {
+    display: flex;
+    
+    border-radius: 5px;
+    max-height: 300px 150px;
+    padding: 20px 60px 10px 60px;
+}
 
-/*.certificados {
-    margin-top: 10px;
-    padding: 50px 0 150px 0;
-}*/
+/* Opcional: Si deseas centrar las imágenes en el carrusel */
+.carousel-inner {
+    
+    align-items: center;
+    justify-content: center;
+}
 
+
+
+/*
 .certificados h2 {
     font-size: 25px;
     font-weight: 800;
@@ -218,7 +235,7 @@ span{
 
 .swiper {
     width: 100%;
-}
+}*/
 
 
 .proyectos h2{
@@ -349,27 +366,17 @@ span{
     }
 
     .sobre-mi {
-        flex-direction: column-reverse;
-        padding: 60px 0px 50px 90px;
+        padding: 30px 10px 5px 80px;
+        margin: 0 auto; 
+        display: block;
         
     }
 
     .sobre-mi-content {
-        width: 90%;
+        width: 80%;
         
     }
     
-    .swiper-slide {
-        margin-top: 50px;
-    }
-
-    .mySwiper {
-        /*width: 100%;*/
-        width: 140vh;
-        margin: 0 auto; 
-        display: block;
-        padding: 0px 55px 0px 55px;
-    }
 
 }
 
@@ -382,29 +389,15 @@ span{
         padding: 10rem 3% 2rem;
     }
 
-
     .sobre-mi {
-        flex-direction: column-reverse;
-        padding: 30px 0 50px 20px;
+        padding: 30px 10px 5px 25px;
+        margin: 0 auto; 
+        display: block;
     }
 
     .sobre-mi-content {
         width: 90%;
-        
     }
-    
-    .certificados {
-        margin-top: 20px;
-    }
-    
-    .mySwiper {
-        /*width: 100%;*/
-        width: 130vh;
-        margin: 0 auto; 
-        display: block;
-        padding: 0px 85px 0px 55px;
-    }
-      
 
     .proyectos {
         padding-bottom: 7rem;
@@ -465,24 +458,18 @@ span{
     }
 
     .sobre-mi {
-        padding: 0px 0px 50px 20px;
-    }
-
-
-    .swiper-slide {
-        /*width: 100%;*/
-        width: 50vh;
+        padding: 30px 10px 5px 15px;
         margin: 0 auto; 
         display: block;
-        padding: 0px 0px 0px 0px;
+    }
+
+    .sobre-mi-content {
+        width:  100%;
     }
 
     .proyectos h2 {
         margin-bottom: 3rem;
-
     }
-
-
 
 }
 
@@ -497,27 +484,17 @@ span{
 
     }
 
-    .swiper-slide {
-        width: 80vh;
-        margin: 0 auto; 
-        display: block;
-        padding: 0px 85px 0px 10px;
-        
-        
-    }
-
-    /*.mySwiper {
-       width: 70vh;
-        margin: 0 auto; 
-        display: block;
-        padding: 0px 55px 0px 55px;
-    }*/
-
     .sobre-mi {
-        flex-direction: column-reverse;
-        padding: 30px 0 50px 10px;
+        padding: 30px 10px 5px 10px;
+        margin: 0 auto; 
+        display: block;
         
     }
+
+    .sobre-mi-content {
+        width:  100%; 
+    }
+    
 }
 
 @media (max-width: 365px) {
@@ -525,20 +502,18 @@ span{
         width: 90vw;
     }
 
-    .swiper-slide {
-        
+
+    .sobre-mi {
+        padding: 30px 10px 5px 10px;
         margin: 0 auto; 
         display: block;
-        padding: 0px 0px 0px 0px;
-        
         
     }
 
-     .mySwiper {
-       width: 95vh;
-       background-position: center;
-       
+    .sobre-mi-content {
+        width:  100%;
     }
+
 
     .footer {
         flex-direction: column-reverse;

@@ -196,7 +196,7 @@ span{
     
     border-radius: 5px;
     max-height: 300px 150px;
-    padding: 20px 60px 10px 60px;
+    padding: 20px 75px 10px 75px;
 }
 
 /* Opcional: Si deseas centrar las imágenes en el carrusel */
@@ -376,6 +376,10 @@ span{
         width: 80%;
         
     }
+
+    .carousel-inner img {
+        padding: 20px 45px 15px 45px;
+    }
     
 
 }
@@ -397,6 +401,10 @@ span{
 
     .sobre-mi-content {
         width: 90%;
+    }
+
+    .carousel-inner img {
+        padding: 20px 35px 15px 35px;
     }
 
     .proyectos {
@@ -467,13 +475,17 @@ span{
         width:  100%;
     }
 
+    .carousel-inner img {
+        padding: 20px 35px 15px 35px;
+    }
+
     .proyectos h2 {
         margin-bottom: 3rem;
     }
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     html {
         font-size: 50%;
 
@@ -494,6 +506,10 @@ span{
     .sobre-mi-content {
         width:  100%; 
     }
+
+    .carousel-inner img {
+        padding: 20px 20px 15px 20px;
+    }
     
 }
 
@@ -512,6 +528,10 @@ span{
 
     .sobre-mi-content {
         width:  100%;
+    }
+    
+    .carousel-inner img {
+        padding: 20px 15px 15px 15px;
     }
 
 

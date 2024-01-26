@@ -511,7 +511,7 @@ button {
     }
 
     .contacto {
-        min-height: auto;
+        padding: 0px 20px 10px 20px;
     }
 
     .footer {
@@ -591,6 +591,10 @@ button {
 
     .proyectos h2 {
         margin-bottom: 3rem;
+    }
+
+    .contacto {
+        padding: 0px 20px 10px 20px;
     }
 
 }

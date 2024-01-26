@@ -471,8 +471,9 @@ button {
         
     }
 
-    .carousel-inner img {
-        padding: 20px 45px 15px 45px;
+    .certificados{
+        padding: 40px 100px 0px 100px;
+        
     }
     
 
@@ -508,6 +509,11 @@ button {
 
     .proyectos {
         padding-bottom: 7rem;
+    }
+
+    .certificados{
+        padding: 40px 100px 0px 100px;
+        
     }
 
     .contacto {
@@ -621,6 +627,21 @@ button {
         width:  100%; 
     }
 
+    .certificado-item {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+        margin: 0 0 0px; /* Añadido un margen inferior para separar las imágenes */
+    }
+
+    .certificado-item img {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+
     .contacto {
         padding: 0px 20px 10px 20px;
     }
@@ -644,6 +665,20 @@ button {
         width:  100%;
     }
     
+    .certificado-item {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+        margin: 0 0 0px; /* Añadido un margen inferior para separar las imágenes */
+    }
+
+    .certificado-item img {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
 
     .contacto {
         padding: 0px 20px 10px 20px;

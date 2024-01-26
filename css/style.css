@@ -627,6 +627,16 @@ button {
         width:  100%; 
     }
 
+    .certificados {
+        padding: 40px 20px 0px 20px; /* Reducido el padding */
+    }
+
+    .certificados-container {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+
     .certificado-item {
         flex: 0 0 100%;
         box-sizing: border-box;
@@ -663,6 +673,16 @@ button {
 
     .sobre-mi-content {
         width:  100%;
+    }
+
+    .certificados {
+        padding: 40px 20px 0px 20px; /* Reducido el padding */
+    }
+
+    .certificados-container {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
     }
     
     .certificado-item {

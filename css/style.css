@@ -617,8 +617,8 @@ button {
         width:  100%; 
     }
 
-    .carousel-inner img {
-        padding: 20px 20px 15px 20px;
+    .contacto {
+        padding: 0px 20px 10px 20px;
     }
     
 }
@@ -640,10 +640,10 @@ button {
         width:  100%;
     }
     
-    .carousel-inner img {
-        padding: 20px 15px 15px 15px;
-    }
 
+    .contacto {
+        padding: 0px 20px 10px 20px;
+    }
 
     .footer {
         flex-direction: column-reverse;

@@ -81,7 +81,13 @@ section{
 }
 
 .home-img img{
-    width: 35vw;
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+    border: 2px solid #0ef;
+    display: flex;
+    padding: 6px 6px;
+    
 }
 
 .home-content h3{
@@ -133,7 +139,7 @@ span{
 
 .btn {
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1rem 1.5rem;
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
@@ -156,21 +162,16 @@ span{
     gap: 1rem;
     background: var(--second-bg-color);
     position: relative;
+    padding: 40px 100px 0px 100px;
 }
-
-
 
 .heading{
     text-align: center;
     font-size: 4.5rem;
 }
 
-.sobre-mi-content {
-    padding: 0px 0px 0px 0px;
-}
-
 .sobre-mi-content h2{
-    text-align: left;
+    text-align: center;
     line-height: 1.2;
     font-weight: 700;
 }
@@ -186,60 +187,141 @@ span{
     
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.carousel-inner img {
+.habilidades-container{
     display: flex;
+    flex-direction: row; /* Cambiado a dirección de fila */
+    justify-content: center; /* Centra las filas horizontalmente */
+    flex-wrap: wrap; /* Permite que las filas se envuelvan a la siguiente línea si no hay suficiente espacio */
+}
+
+.habilidades-item{
+    margin: 10px;
     
-    border-radius: 5px;
-    max-height: 300px 150px;
-    padding: 20px 75px 10px 75px;
 }
 
-/* Opcional: Si deseas centrar las imágenes en el carrusel */
-.carousel-inner {
+.habilidades-item img{
+    width: 120px;
+    height: 100px;
+    padding: 6px 6px;
+}
+
+
+.certificados{
+    padding: 40px 100px 0px 100px;
     
-    align-items: center;
-    justify-content: center;
 }
 
-
-
-/*
-.certificados h2 {
-    font-size: 25px;
-    font-weight: 800;
-    margin-bottom: 20px;
+.certificados-container {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
 
-.mySwiper {
-    width: 80%;
-    padding: 20px;
+#certificados-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: space-between;
 }
 
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 400px;
+.certificados-container h2 {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 700;
 }
+
+.certificado-item {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    margin: 0 ;  /*Añade un margen entre las imágenes */
+    
+}
+
+.certificado-item img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 400px;
+}
+
+.certificados-botones {
+    padding: 40px 10px 20px 10px;
+}
+
+button {
+    margin: 10px;
+}
+
+.experiencia {
+    padding: 40px 0px 20px 0px;
+    background-color: var(--second-bg-color);
+  }
   
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    border-radius: 5px;
+  .experiencia h2 {
     
-}
+    margin-bottom: 20px;
+    font-size: 4.2rem;
+    font-weight: 700;
+  }
+  
+  .experiencia-item {
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 100px 0px 100px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .experiencia-item h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+  
+  .job-title {
+    
+    
+    color: var(--main-color);
+    font-size: 2.7rem;
+    font-weight: 350;
+    
+  }
+  
+  .company {
+    font-weight: bold;
+    
+    margin-bottom: 8px;
 
-.swiper {
-    width: 100%;
-}*/
+    font-size: 2.0rem;
+    font-weight: 200;
+  }
+  
+  .date {
+    
+    font-size: 1.5rem;
+    font-weight: 150;
 
+  }
+  
+  .description {
+    
+    font-size: 1.5rem;
+    font-weight: 150;
+  }
+
+  .nombreApp {
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 150;
+  }
+
+.proyectos {
+    padding: 30px 90px 10px 90px;
+}  
 
 .proyectos h2{
-    margin-bottom: 5rem;
+    margin-bottom: 20px;
+    font-size: 4.2rem;
+    font-weight: 700;
 
 }
 
@@ -254,7 +336,7 @@ span{
 .proyectos-container .proyectos-box {
     flex: 1 1 30rem;
     background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
+    padding: 2rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
@@ -271,9 +353,6 @@ span{
     color: var(--main-color);
 }
 
-
-
-
 .proyectos-box h3 {
     font-size: 2.6rem;
 }
@@ -283,9 +362,24 @@ span{
     margin: 1rem 0 3rem;
 }
 
-.contacto h2 {
-    margin-bottom: 3rem;
+.proyectos-tecn{
+    padding: 15px 0px 15px 0px;
+}
 
+.proyectos-tecnologia{
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.contacto {
+    padding: 30px 90px 10px 90px;
+}
+
+.contacto h2 {
+    
+    margin-bottom: 20px;
+    font-size: 4.2rem;
+    font-weight: 700;
 }
 
 .contacto form {
@@ -403,9 +497,14 @@ span{
         width: 90%;
     }
 
-    .carousel-inner img {
-        padding: 20px 35px 15px 35px;
+    .experiencia{
+        padding: 40px 15px 20px 0px;
     }
+
+    .experiencia-item {
+        padding: 10px 15px 10px 25px;
+    }
+
 
     .proyectos {
         padding-bottom: 7rem;
@@ -460,11 +559,6 @@ span{
         font-size: 5rem;
     }
 
-    .home-img img {
-        width: 70vw;
-        margin-top: 4rem;
-    }
-
     .sobre-mi {
         padding: 30px 10px 5px 15px;
         margin: 0 auto; 
@@ -475,9 +569,25 @@ span{
         width:  100%;
     }
 
-    .carousel-inner img {
-        padding: 20px 35px 15px 35px;
+    .certificados {
+        padding: 40px 20px 0px 20px; /* Reducido el padding */
     }
+
+    .certificado-item {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+        margin: 0 0 0px; /* Añadido un margen inferior para separar las imágenes */
+    }
+
+    .certificado-item img {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+   
 
     .proyectos h2 {
         margin-bottom: 3rem;
@@ -515,7 +625,7 @@ span{
 
 @media (max-width: 365px) {
     .home-img img {
-        width: 90vw;
+        margin-top: 20px;
     }
 
 

@@ -36,17 +36,20 @@ window.onscroll = () => {
 };
 
 /* esta parte es para el carrusel de las imagenes de los certificados */
-var swiper = new Swiper('.mySwiper', {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-        rotate:15,
-        stretch: 0,
-        depth:300,
-        modifier:1,
-        slideShadows: true,
-    },
-    loop:true,
-});
+
+var certificadosContainer = document.getElementById('certificados-slider');
+var currentIndex = 0;
+
+function cambiarImagen(direccion) {
+    var certificados = document.querySelectorAll('.certificado-item');
+
+    if (direccion === 'anterior') {
+        currentIndex = Math.max(currentIndex - 1, 0);
+    } else if (direccion === 'siguiente') {
+        currentIndex = Math.min(currentIndex + 1, certificados.length - 1);
+    }
+
+    var transformValue = -currentIndex * 100 + '%';
+    certificadosContainer.style.transform = 'translateX(' + transformValue + ')';
+}
+

@@ -81,8 +81,8 @@ section{
 }
 
 .home-img img{
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     border-radius: 1000px;
     border: 2px solid #0ef;
     display: flex;
@@ -348,6 +348,8 @@ button {
     transform: scale(1.02);
 }
 
+
+
 .proyectos-box i {
     font-size: 7rem;
     color: var(--main-color);
@@ -575,6 +577,11 @@ button {
         width:  100%;
     }
 
+    .home-img img{
+        width: 230px;
+        height: 230px;
+    }
+
     /*.certificados {
         padding: 40px 20px 0px 20px; /* Reducido el padding 
     }*/
@@ -635,6 +642,11 @@ button {
         width:  100%; 
     }
 
+    .home-img img{
+        width: 230px;
+        height: 230px;
+    }
+
     /*.certificados {
         padding: 40px 20px 0px 20px; /* Reducido el padding 
     }*/
@@ -692,6 +704,11 @@ button {
         width:  100%;
     }
 
+    .home-img img{
+        width: 230px;
+        height: 230px;
+    }
+
     /*.certificados {
         padding: 40px 20px 0px 20px; /* Reducido el padding 
     }*/
@@ -706,6 +723,10 @@ button {
     .certificados {
         padding: 5% 5%;
         
+    }
+
+    .proyectos-box {
+        width: 100%;
     }
 
     .contacto {

@@ -28,8 +28,8 @@ body {
 }
 
 section{
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    
+    padding: 7rem 9% 10rem 2rem;
 }
 
 .header{
@@ -206,8 +206,9 @@ span{
 }
 
 
-.certificados{
-    padding: 40px 100px 0px 100px;
+#certificados{
+    /*padding: 40px 100px 0px 100px;*/
+    margin-bottom: 10px;
     
 }
 
@@ -374,7 +375,7 @@ button {
 }
 
 .contacto {
-    padding: 30px 90px 10px 90px;
+    padding: 0px 90px 0px 90px;
 }
 
 .contacto h2 {
@@ -614,9 +615,9 @@ button {
         padding: 5% 5%;
     }
 
-    .contacto {
+   /* .contacto {
         padding: 5% 5%;
-    }
+    }*/
 
 }
 
@@ -680,10 +681,10 @@ button {
         padding: 5% 5%;
     }
 
-    .contacto {
+    /*.contacto {
         margin-top: -50px;
         padding: 5% 5%;
-    }
+    }*/
     
 }
 
@@ -719,17 +720,22 @@ button {
         padding: 0px 20px 10px 20px;
     }*/
 
-    .certificados {
-        padding: 5% 5%;
+    #certificados{
+        /*padding: 40px 100px 0px 100px;*/
+        margin-bottom: 20px;
+        overflow: auto;
         
     }
 
-
-
-    .contacto {
-        /*margin-top: -100px;*/
-        padding: 5% 5%;
+    #contacto {
+        margin-top: 20px;
     }
+
+
+    /*.contacto {
+        margin-top: -100px;
+        padding: 5% 5%;
+    }*/
 
     .footer {
         flex-direction: column-reverse;

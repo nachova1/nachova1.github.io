@@ -29,7 +29,7 @@ body {
 
 section{
     
-    padding: 7rem 9% 10rem 2rem;
+    /*padding: 7rem 9% 10rem 2rem;*/
 }
 
 .header{
@@ -78,6 +78,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 90px 90px 0px 90px;
 }
 
 .home-img img{
@@ -86,7 +87,7 @@ section{
     border-radius: 1000px;
     border: 2px solid #0ef;
     display: flex;
-    padding: 6px 6px;
+    padding: 7px 7px;
     
 }
 
@@ -162,7 +163,8 @@ span{
     gap: 1rem;
     background: var(--second-bg-color);
     position: relative;
-    padding: 40px 100px 0px 100px;
+    padding: 90px 90px 40px 90px;
+    margin-top: 100px;
 }
 
 .heading{
@@ -206,9 +208,10 @@ span{
 }
 
 
-#certificados{
-    /*padding: 40px 100px 0px 100px;*/
-    margin-bottom: 10px;
+.certificados{
+    
+    padding: 90px 90px 0px 90px;
+    
     
 }
 
@@ -254,8 +257,9 @@ button {
 }
 
 .experiencia {
-    padding: 40px 0px 20px 0px;
+    padding: 90px 90px 40px 90px;
     background-color: var(--second-bg-color);
+    margin-top: 100px;
   }
   
   .experiencia h2 {
@@ -268,7 +272,7 @@ button {
   .experiencia-item {
     position: relative;
     border-radius: 8px;
-    padding: 15px 100px 0px 100px;
+    /*padding: 15px 100px 0px 100px;*/
     margin-bottom: 20px;
     display: block;
   }
@@ -316,7 +320,8 @@ button {
   }
 
 .proyectos {
-    padding: 0px auto 10px auto;
+    padding: 90px 90px 40px 90px;
+    margin-top: 100px;
 }  
 
 .proyectos h2{
@@ -375,7 +380,9 @@ button {
 }
 
 .contacto {
-    padding: 0px 90px 0px 90px;
+    padding: 80px 90px 40px 90px;
+    
+    
 }
 
 .contacto h2 {
@@ -419,7 +426,7 @@ button {
 }
 
 .contacto form .btn {
-    margin-top: 2rem;
+    padding: 1.5rem;
     cursor: pointer;
 }
 
@@ -474,6 +481,11 @@ button {
         
     }
 
+    .experiencia{
+        padding: 70px 15px 20px 0px;
+        
+    }
+
     .certificados{
         padding: 40px 100px 0px 100px;
         
@@ -488,7 +500,7 @@ button {
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        padding: 7rem 9% 10rem 2rem;
     }
 
     .sobre-mi {
@@ -502,7 +514,8 @@ button {
     }
 
     .experiencia{
-        padding: 40px 15px 20px 0px;
+        padding: 100px 15px 20px 0px;
+        
     }
 
     .experiencia-item {

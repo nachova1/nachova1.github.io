@@ -621,15 +621,6 @@ button {
         margin-bottom: 3rem;
     }
 
-    /*.contacto {
-        padding: 0px 20px 10px 20px;
-    }*/
-
- 
-
-   /* .contacto {
-        padding: 5% 5%;
-    }*/
 
 }
 
@@ -645,10 +636,8 @@ button {
     }
 
     .sobre-mi {
-        padding: 30px 10px 5px 10px;
-        margin: 0 auto; 
-        display: block;
-        
+        padding: 90px 20px 40px 20px;
+        margin-top: 100px;
     }
 
     .sobre-mi-content {
@@ -660,21 +649,7 @@ button {
         height: 230px;
     }
 
-    /*.certificados {
-        padding: 40px 20px 0px 20px; /* Reducido el padding 
-    }*/
 
-    .certificados-container {
-        position: relative;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    .certificado-item {
-        flex: 0 0 100%;
-        box-sizing: border-box;
-        margin: 0; /* Añadido un margen inferior para separar las imágenes */
-    }
 
     .certificado-item img {
         border: 1px solid #ddd;
@@ -682,72 +657,76 @@ button {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         width: 100%;
         height: auto;
-        max-width: 600px;
+        
     }
 
-    /*.contacto {
-        padding: 0px 20px 10px 20px;
-    }*/
-
-    .certificados {
-        padding: 5% 5%;
+    .certificados{
+        padding: 80px 80px 0px 80px;
+        margin-top: 30px;
     }
+    
+    
+    
 
-    /*.contacto {
-        margin-top: -50px;
-        padding: 5% 5%;
-    }*/
+
     
 }
 
 @media (max-width: 365px) {
     .home-img img {
         margin-top: 20px;
-        width: 230px;
-        height: 230px;
-        float: left;
+        width: 220px;
+        height: 220px;
+        
     }
 
 
     .sobre-mi {
-        padding: 30px 10px 5px 10px;
-        margin: 0 auto; 
-        display: block;
-        
+        padding: 90px 20px 40px 20px;
+        margin-top: 100px;
     }
 
     .sobre-mi-content {
-        width:  100%;
+        width:  100%; 
     }
 
+    .proyectos {
+        padding: 80px 40px 0px 40px;
+        
+    } 
 
-    /*.certificados {
-        padding: 40px 20px 0px 20px; /* Reducido el padding 
-    }*/
-
-
-
-
-    /*.contacto {
-        padding: 0px 20px 10px 20px;
-    }*/
-
-    #certificados{
-        /*padding: 40px 100px 0px 100px;*/
-        margin-bottom: 20px;
-        overflow: auto;
+    .proyectos-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    
+    .certificado-item img {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 100%;
         
     }
 
-    #contacto {
-        margin-top: 20px;
+    .certificados{
+        padding: 80px 80px 0px 80px;
+        margin-top: 30px;
     }
 
+    .heading{
+        text-align: center;
+        font-size: 3.5rem;
+    }
 
-    /*.contacto {
-        margin-top: -100px;
-        padding: 5% 5%;
-    }*/
+    .contacto {
+        padding: 65px 40px 0px 40px;
+        margin-top: 30px;
+        
+    }
 
     .footer {
         flex-direction: column-reverse;

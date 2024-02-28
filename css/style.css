@@ -91,6 +91,10 @@ section{
     
 }
 
+.home-content {
+    padding: 90px 25px 40px 25px;
+}
+
 .home-content h3{
     font-size: 3.2rem;
     font-weight: 700;

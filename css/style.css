@@ -509,6 +509,10 @@ button {
         padding: 2rem 3%;
     }
 
+    .home-content {
+        padding: 90px 20px 40px 20px;
+    }
+
     .home {
         padding: 90px 0px 0px 40px;
     }
@@ -582,6 +586,10 @@ button {
 
     }
 
+    .home-content {
+        padding: 90px 20px 40px 20px;
+    }
+
     .home-content h3 {
         font-size: 2.6rem;
     }  
@@ -604,12 +612,6 @@ button {
         height: 230px;
     }
 
-
-    /*.certificado-item {
-        flex: 0 0 100%;
-        box-sizing: border-box;
-        margin: 0; 
-    }*/
 
     .certificado-item img {
         border: 1px solid #ddd;
@@ -649,6 +651,10 @@ button {
         width:  100%; 
     }
 
+    .home-content {
+        padding: 90px 20px 40px 20px;
+    }
+
     .home-img img{
         width: 230px;
         height: 230px;
@@ -676,10 +682,6 @@ button {
         margin-top: 30px;
         
     }
-   /* .contacto form .input-box input {
-        width: 100%;
-
-    }*/
 
     
 }
@@ -692,6 +694,9 @@ button {
         
     }
 
+    .home-content {
+        padding: 90px 20px 40px 20px;
+    }
 
     .sobre-mi {
         padding: 90px 20px 40px 20px;

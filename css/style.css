@@ -720,6 +720,11 @@ button {
         padding: 70px 10px 40px 10px;
     }
 
+    .experiencia-item {
+        font-size: 4.2rem;
+    font-weight: 700;
+    }
+
     .sobre-mi {
         padding: 90px 30px 40px 30px;
         margin-top: 100px;

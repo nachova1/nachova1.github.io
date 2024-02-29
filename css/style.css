@@ -37,7 +37,8 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    /*padding: 2rem 9%;*/
+    padding: 40px 40px 20px 100px;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -78,7 +79,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 90px 40px 90px;
+    padding: 90px 90px 90px 90px;
 }
 
 .home-img img{
@@ -261,7 +262,7 @@ button {
 }
 
 .experiencia {
-    padding: 90px 90px 40px 90px;
+    padding: 95px 90px 40px 90px;
     background-color: var(--second-bg-color);
     margin-top: 100px;
   }
@@ -384,7 +385,7 @@ button {
 }
 
 .contacto {
-    padding: 80px 90px 40px 90px;
+    padding: 90px 90px 40px 90px;
     
     
 }
@@ -473,12 +474,14 @@ button {
         font-size: 55%;
     }
 
+
+
     .home-content {
-        padding: 90px 20px 40px 20px;
+        padding: 100px 15px 100px 15px;
     }
 
     .sobre-mi {
-        padding: 90px 90px 40px 90px;
+        padding: 90px 90px 90px 90px;
         margin-top: 100px;
         
     }
@@ -491,12 +494,12 @@ button {
     }
 
     .proyectos {
-        padding: 80px 90px 40px 90px;
+        padding: 90px 90px 90px 90px;
         
     } 
 
     .certificados{
-        padding: 90px 80px 20px 80px;
+        padding: 90px 80px 90px 80px;
         
         
     }
@@ -506,7 +509,7 @@ button {
 
 @media (max-width: 991px){
     .header {
-        padding: 2rem 3%;
+        padding: 40px 40px 20px 60px;
     }
 
     .home-content {
@@ -514,18 +517,18 @@ button {
     }
 
     .home {
-        padding: 90px 0px 0px 40px;
+        padding: 90px 40px 0px 40px;
     }
 
     .sobre-mi {
-        padding: 90px 50px 40px 50px;
+        padding: 90px 60px 40px 60px;
         margin-top: 100px;
 
     }
 
 
     .experiencia{
-        padding: 100px 15px 20px 0px;
+        padding: 90px 40px 40px 40px;
         
     }
 
@@ -539,12 +542,12 @@ button {
     }
 
     .certificados{
-        padding: 60px 80px 0px 80px;
+        padding: 90px 20px 0px 20px;
         margin-top: 35px;
     }
 
     .contacto {
-        padding: 65px 90px 0px 90px;
+        padding: 90px 90px 0px 90px;
         
         
     }
@@ -554,7 +557,7 @@ button {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
     #menu-icon {
         display: block;
     }
@@ -582,12 +585,12 @@ button {
     }
 
     .home {
+        padding: 40px 40px 0px 40px;
         flex-direction: column;
-
     }
 
     .home-content {
-        padding: 90px 20px 40px 20px;
+        padding: 50px 20px 0px 20px;
     }
 
     .home-content h3 {
@@ -595,11 +598,16 @@ button {
     }  
     
     .home-content h1 {
-        font-size: 5rem;
+        font-size: 4.5rem;
+    }
+
+    .experiencia{
+        padding: 90px 20px 40px 20px;
+        
     }
 
     .sobre-mi {
-        padding: 90px 20px 40px 20px;
+        padding: 90px 40px 40px 40px;
         margin-top: 100px;
     }
 
@@ -623,7 +631,7 @@ button {
     }
 
     .certificados{
-        padding: 80px 80px 0px 80px;
+        padding: 90px 80px 20px 80px;
         margin-top: 30px;
     }
 
@@ -643,7 +651,7 @@ button {
   
 
     .sobre-mi {
-        padding: 90px 20px 40px 20px;
+        padding: 90px 40px 40px 40px;
         margin-top: 100px;
     }
 
@@ -658,6 +666,8 @@ button {
     .home-img img{
         width: 230px;
         height: 230px;
+        
+        
     }
 
 
@@ -672,14 +682,14 @@ button {
     }
 
     .certificados{
-        padding: 80px 40px 0px 40px;
-        margin-top: 30px;
+        padding: 90px 40px 0px 40px;
+        margin-top: 35px;
     }
     
     
     .contacto {
-        padding: 65px 40px 0px 40px;
-        margin-top: 30px;
+        padding: 90px 40px 0px 40px;
+        margin-top: 35px;
         
     }
 
@@ -694,12 +704,24 @@ button {
         
     }
 
+    .header {
+        padding: 20px 30px 20px 30px;
+    }
+
+    .home {
+        padding: 10px 10px 20px 10px;
+    }
+
     .home-content {
         padding: 90px 20px 40px 20px;
     }
 
+    .experiencia {
+        padding: 70px 10px 40px 10px;
+    }
+
     .sobre-mi {
-        padding: 90px 20px 40px 20px;
+        padding: 90px 30px 40px 30px;
         margin-top: 100px;
     }
 
@@ -740,7 +762,7 @@ button {
     }
 
     .contacto {
-        padding: 80px 20px 0px 20px;
+        padding: 70px 20px 0px 20px;
         margin-top: 30px;
         
     }

@@ -720,10 +720,33 @@ button {
         padding: 70px 10px 40px 10px;
     }
 
-    .experiencia-item {
-        font-size: 4.2rem;
-    font-weight: 700;
-    }
+    .company {
+        font-weight: bold;
+        
+        margin-bottom: 8px;
+    
+        font-size: 2.0rem;
+        font-weight: 200;
+      }
+      
+      .date {
+        
+        font-size: 1.5rem;
+        font-weight: 150;
+    
+      }
+      
+      .description {
+        
+        font-size: 1.5rem;
+        font-weight: 150;
+      }
+    
+      .nombreApp {
+        color: var(--main-color);
+        font-size: 1.5rem;
+        font-weight: 150;
+      }
 
     .sobre-mi {
         padding: 90px 30px 40px 30px;

@@ -38,7 +38,7 @@ section{
     left: 0;
     width: 100%;
     /*padding: 2rem 9%;*/
-    padding: 40px 40px 20px 100px;
+    padding: 15px 40px 15px 100px;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -167,9 +167,13 @@ span{
     align-items: flex-start;
     gap: 1rem;
     background: var(--second-bg-color);
-    position: relative;
-    padding: 90px 90px 40px 90px;
-    margin-top: 100px;
+    /*position: relative;*/
+    padding: 60px 90px 40px 90px;
+    margin-top: 60px;
+}
+
+.sobre-mi-content {
+    padding: 100px 0px 0px 0px;
 }
 
 .heading{
@@ -216,7 +220,9 @@ span{
 .certificados{
     
     padding: 90px 90px 0px 90px;
-    
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -224,6 +230,7 @@ span{
     position: relative;
     overflow: hidden;
     text-align: center;
+    padding: 0px 0px 0px 0px;
 }
 
 #certificados-slider {
@@ -262,11 +269,18 @@ button {
 }
 
 .experiencia {
-    padding: 95px 90px 40px 90px;
+    padding: 90px 90px 40px 90px;
     background-color: var(--second-bg-color);
-    margin-top: 100px;
+    margin-top: 60px;
+    
+    
+    
   }
   
+  .experiencia-container {
+    padding: 0px 0px 0px 0px;
+  }
+
   .experiencia h2 {
     
     margin-bottom: 20px;
@@ -342,6 +356,7 @@ button {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 0px 0px 0px 0px;
 }
 
 .proyectos-container .proyectos-box {
@@ -385,8 +400,8 @@ button {
 }
 
 .contacto {
-    padding: 90px 90px 40px 90px;
-    
+    padding: 60px 90px 30px 90px;
+    margin-top: 65px;
     
 }
 
@@ -562,12 +577,17 @@ button {
         display: block;
     }
 
+    .header {
+        padding: 20px 60px 20px 40px;
+    }
+
     .navbar {
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
         padding: 1rem 3%;
+        
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
@@ -585,12 +605,12 @@ button {
     }
 
     .home {
-        padding: 40px 40px 0px 40px;
+        padding: 90px 50px 0px 40px;
         flex-direction: column;
     }
 
     .home-content {
-        padding: 50px 20px 0px 20px;
+        padding: 30px 0px 10px 0px;
     }
 
     .home-content h3 {
@@ -605,6 +625,10 @@ button {
         padding: 90px 20px 40px 20px;
         
     }
+
+    .experiencia-container {
+        padding: 0px 0px 0px 0px;
+      }
 
     .company {
         font-weight: bold;
@@ -634,13 +658,23 @@ button {
         font-weight: 150;
       }
 
+    .proyectos {
+        padding: 70px 10px 20px 10px;
+       
+    }  
+
+    .proyectos-container {
+        padding: 20px 40px 20px 40px;
+        flex-direction: column;
+    }
+
     .sobre-mi {
-        padding: 90px 40px 40px 40px;
-        margin-top: 100px;
+        padding: 80px 40px 40px 40px;
+        
     }
 
     .sobre-mi-content {
-        width:  100%;
+        padding:  0px 0px 0px 0px;
     }
 
     .home-img img{
@@ -659,12 +693,17 @@ button {
     }
 
     .certificados{
-        padding: 90px 80px 20px 80px;
-        margin-top: 30px;
+        padding: 90px 80px 0px 80px;
+        
     }
 
-    .proyectos h2 {
-        margin-bottom: 3rem;
+    .certificados-container {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .contacto {
+        padding: 80px 40px 20px 40px;
+
     }
 
 
@@ -759,7 +798,7 @@ button {
     }
 
     .header {
-        padding: 20px 30px 20px 30px;
+        padding: 10px 30px 10px 30px;
     }
 
     .home {

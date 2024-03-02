@@ -53,3 +53,15 @@ function cambiarImagen(direccion) {
     certificadosContainer.style.transform = 'translateX(' + transformValue + ')';
 }
 
+/* scroll reveal para animaciones de textos*/
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .contacto form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .experiencia h3, .company, .nombreApp, .sobre-mi-content h3', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .job-title, .date, .description, .btn, .sobre-mi-content p', { origin: 'rigth' });
